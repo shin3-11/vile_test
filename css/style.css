@@ -329,6 +329,9 @@ h2{
 .w-sm-75{
     width: 75% !important;
 }
+.border-sm-none{
+    border-top: none !important;
+}
 
 /* menu */
 .menu1{
