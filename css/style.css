@@ -113,6 +113,10 @@ p{
    transform: rotateZ( 60deg );
 }
 
+.f3{
+    height: 40px;
+}
+
 
 /* section */
 .mv{
@@ -352,6 +356,10 @@ h2{
 }
 .border-sm-none{
     border-top: none !important;
+}
+
+.f3{
+    height: 80px;
 }
 
 /* menu */
