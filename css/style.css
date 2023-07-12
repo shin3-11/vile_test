@@ -99,9 +99,13 @@ a{
     height:75vh
     }
 .mw-75{
-    max-width: 75%;
+    max-width: 80%;
     margin: auto;
     }
+.mw-menu{
+    max-width: 50%;
+    margin: auto;
+}
 .rotate-90 {
    transform: rotateZ( 60deg );
 }
@@ -309,6 +313,10 @@ h2{
     max-width: 95%;
     margin: auto;
     }
+.mw-menu{
+    max-width: 95%;
+    margin: auto;
+}
 .mw-card{
     max-width: 95%;
     margin: auto;
