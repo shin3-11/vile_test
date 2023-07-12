@@ -149,6 +149,31 @@ p{
 
 }
 
+.mv_shape_right{
+    width: 35%;
+    height: 120px;
+    position: relative;
+    margin-top:-265px ;
+    animation: loop 5s -50s linear infinite;
+    opacity: 55%;
+}
+
+.mv_text_img{
+
+}
+
+.loop_box img{
+    
+}
+
+@keyframes loop {
+    0% {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
 /* menu */
 .menu1{
     background-image: url(../img/Group\ 201.png);
