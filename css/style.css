@@ -2,6 +2,9 @@
 a{
     text-decoration: none;
     }
+p{
+    font-size: 14px !important;
+}
 .text-1{
     color: #44A6FF;
     }
@@ -138,7 +141,9 @@ a{
     left: -20px;
     top: -30px;
 }
+.b-sp-none{
 
+}
 
 /* menu */
 .menu1{
@@ -299,6 +304,10 @@ a{
 .w-md-75{
     width: 75% !important;
 }
+.py-5{
+    padding-top: 2rem!important;
+    padding-bottom: 2rem!important;
+}
 }
 
 
@@ -336,6 +345,10 @@ h2{
 
 .w-sm-75{
     width: 75% !important;
+}
+
+.w-sm-flow{
+    width: 30% !important;
 }
 .border-sm-none{
     border-top: none !important;
