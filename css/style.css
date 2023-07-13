@@ -237,7 +237,8 @@ p{
     bottom: 0;
     }
 .menu1 img{
-    bottom: 10%;
+    bottom: -20%;
+    right: 20%;
     }
 .menu2{
     background-image: url(../img/Group\ 209.png);
@@ -252,7 +253,9 @@ p{
     bottom: 0;
     }
 .menu2 img{
-    bottom: 10%;
+    bottom: -20%;
+    right: 15%;
+    width: 60% !important;
     }
 .menu3{
     background-image: url(../img/Group\ 210.png);
@@ -267,7 +270,8 @@ p{
     bottom: 0;
     }
 .menu3 img{
-    bottom: 10%;
+    bottom: -20%;
+    right: 17%;
     }
 
 /*========= ナビゲーションのためのCSS ===============*/
@@ -382,10 +386,14 @@ p{
 .w-md-75{
     width: 75% !important;
 }
+.w-menu{
+    width: 15%!important;
+}
 .py-5{
     padding-top: 2rem!important;
     padding-bottom: 2rem!important;
 }
+
 }
 
 
@@ -420,18 +428,22 @@ h2{
     left: 30vw;
     font-size: 1rem;
     }
-
+.w-sm-50{
+    width: 50% !important;
+}
 .w-sm-75{
     width: 75% !important;
 }
-
 .w-sm-flow{
     width: 30% !important;
+}
+.h-sm-bar{
+    padding-top: 2rem!important;
+    padding-bottom: 2rem!important;
 }
 .border-sm-none{
     border-top: none !important;
 }
-
 .f3{
     height: 80px;
 }
@@ -508,24 +520,24 @@ h2{
     background-image: url(../img/mv1.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100px;
+    height: 50px;
 }
 .mv2{
     background-image: url(../img/mv2.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100px;
+    height: 50px;
 }
 .mv3{
     background-image: url(../img/mv3.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100px;
+    height: 50px;
 }
 
 .mv_shape_right{
     width: 50%;
-    height: 100px;
+    height: 50px;
     position: relative;
     /*margin-top: ;
     */animation: loop 5s -50s linear infinite;
@@ -535,7 +547,7 @@ h2{
 
 .mv_shape_left{
     width: 50%;
-    height: 100px;
+    height: 50px;
     position: relative;
     /*margin-top: ;
     */animation: loop2 5s -50s linear infinite;
