@@ -124,9 +124,9 @@ p{
 
 /* section */
 .mv{
-    background-image: url(../img/Group\ 195.png);
+    /* background-image: url(../img/Group\ 195.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
     height: 87vh;
     }
 .text-mv1{
@@ -149,35 +149,80 @@ p{
     left: -20px;
     top: -30px;
 }
-.b-sp-none{
 
+.mv1{
+    background-image: url(../img/mv1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100px;
+}
+.mv2{
+    background-image: url(../img/mv2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100px;
+}
+.mv3{
+    background-image: url(../img/mv3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100px;
 }
 
 .mv_shape_right{
     width: 35%;
-    height: 120px;
+    height: 100px;
     position: relative;
-    margin-top:-265px ;
-    animation: loop 5s -50s linear infinite;
+    /*margin-top: ;
+    */animation: loop 5s -50s linear infinite;
     opacity: 55%;
+    -webkit-animation: loop 5s -50s linear infinite;
 }
 
-.mv_text_img{
-
-}
-
-.loop_box img{
-
+.mv_shape_left{
+    width: 35%;
+    height: 100px;
+    position: relative;
+    /*margin-top: ;
+    */animation: loop2 5s -50s linear infinite;
+    opacity: 55%;
+    -webkit-animation: loop2 5s -50s linear infinite;
 }
 
 @keyframes loop {
     0% {
         transform: translateX(100%);
-    }
+        -webkit-transform: translateX(100%);
+        -moz-transform: translateX(100%);
+        -ms-transform: translateX(100%);
+        -o-transform: translateX(100%);
+}
     to {
         transform: translateX(-100%);
-    }
+        -webkit-transform: translateX(-100%);
+        -moz-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+        -o-transform: translateX(-100%);
 }
+}
+
+@keyframes loop2 {
+    0% {
+        transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+        -moz-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+        -o-transform: translateX(-100%);
+}
+    to {
+        transform: translateX(100%);
+        -webkit-transform: translateX(100%);
+        -moz-transform: translateX(100%);
+        -ms-transform: translateX(100%);
+        -o-transform: translateX(100%);
+}
+}
+
 /* menu */
 .menu1{
     background-image: url(../img/Group\ 201.png);
@@ -457,6 +502,47 @@ h2{
     right: auto;
     top: -75px;
 }
+
+
+.mv1{
+    background-image: url(../img/mv1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+}
+.mv2{
+    background-image: url(../img/mv2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+}
+.mv3{
+    background-image: url(../img/mv3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+}
+
+.mv_shape_right{
+    width: 50%;
+    height: 100px;
+    position: relative;
+    /*margin-top: ;
+    */animation: loop 5s -50s linear infinite;
+    opacity: 55%;
+    -webkit-animation: loop 5s -50s linear infinite;
+}
+
+.mv_shape_left{
+    width: 50%;
+    height: 100px;
+    position: relative;
+    /*margin-top: ;
+    */animation: loop2 5s -50s linear infinite;
+    opacity: 55%;
+    -webkit-animation: loop2 5s -50s linear infinite;
+}
+
 
     /*========= ナビゲーションのためのCSS ===============*/
 
