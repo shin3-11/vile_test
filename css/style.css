@@ -112,9 +112,13 @@ p{
 .rotate-90 {
    transform: rotateZ( 60deg );
 }
-
 .f3{
     height: 40px;
+}
+.btn-op{
+    right: 5%;
+    top: 0;
+    font-size: 12px;
 }
 
 
@@ -163,7 +167,7 @@ p{
 }
 
 .loop_box img{
-    
+
 }
 
 @keyframes loop {
@@ -436,7 +440,6 @@ h2{
 .menu3 img{
     bottom: 10%;
     }
-
 .b-sp-none{
     border: none !important;
     border-radius: 0 !important;
@@ -445,11 +448,14 @@ h2{
     -ms-border-radius: 0 !important;
     -o-border-radius: 0 !important;
 }
-
 .pickup {
     width: 60px;
     left: 0px;
     top: -30px;
+}
+.btn-op{
+    right: auto;
+    top: -75px;
 }
 
     /*========= ナビゲーションのためのCSS ===============*/
